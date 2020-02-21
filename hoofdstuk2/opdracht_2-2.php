@@ -36,24 +36,24 @@
     <h2>Uitwerkingen</h2>
 </main>
 <?php
-$text1 = 'Hallo';
-$text2 = 'een makkelijke taal';
-$text3 = 'toch zon makkelijke taal';
-$text4 = 'wat is';
-$text5 = 'PHP';
-$text6 = 'Nooit gedacht dat';
-$text7 = 'De installatie is best ingewikkeld';
-$text8 = 'Fijn';
-$text9 = '?';
-$text10 = '.';
-$text11 = ',';
-$text12 = '<br>';
-$text13 = 'is';
-$text14 = 'Vind je niet';
-$text15 = 'toch';
+$text1 = "Hallo";
+$text2 = "tocht een makkelijke taal";
+$text3 = "wat is";
+$text4 = "PHP";
+$text5 = "nooit gedacht dat";
+$text6 = "de ingewikkelde installatie";
+$text7 = "Fijn toch?";
 
-echo $text1 . $text11 . $text4 . $text5 . $text15 . $text2 . $text11
+   echo ("<h1>Taak 2</h1>");
+    echo ("<p>$text1 $text3 $text4 $text2</p>");
+    echo ("<p>$text3 $text6 $text7</p>");
+    echo ("<p>$text5 $text4 $text2 $text3</p>");
+    ?>
+<?php
+echo ("<h1>Taak 3</h1>");
+echo ("<p>$text1, $text3 $text4, ondanks $text6 $text2?</p>");
+echo ("<p>$text7 $text5 $text4 eigenlijk $text2 blijkt te zijn?</p>");
+
 ?>
-
 </body>
 </html>
